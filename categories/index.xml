@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 苦楝</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on 苦楝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Nov 2020 16:14:45 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT</title>
+      <link>/categories/it/</link>
+      <pubDate>Wed, 04 Nov 2020 16:14:45 +0800</pubDate>
+      
+      <guid>/categories/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>荒唐言</title>
+      <link>/categories/%E8%8D%92%E5%94%90%E8%A8%80/</link>
+      <pubDate>Wed, 04 Nov 2020 16:14:45 +0800</pubDate>
+      
+      <guid>/categories/%E8%8D%92%E5%94%90%E8%A8%80/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

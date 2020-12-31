@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT on 苦楝</title>
+    <link>/categories/it/</link>
+    <description>Recent content in IT on 苦楝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Nov 2020 16:14:45 +0800</lastBuildDate><atom:link href="/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac 终端安装 Homebrew 报错备忘</title>
+      <link>/posts/homebrew%E5%AE%89%E8%A3%85%E5%A4%87%E5%BF%98/</link>
+      <pubDate>Wed, 04 Nov 2020 16:14:45 +0800</pubDate>
+      
+      <guid>/posts/homebrew%E5%AE%89%E8%A3%85%E5%A4%87%E5%BF%98/</guid>
+      <description>通过mac自带的ruby安装brew, 命令：
+ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 注意事项 1：  需通过代理访问，否则出现报错：  curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused  解决： 通过设置终端代理，端口根据设置自定义修改(clashx用户可以在功能菜单中直接复制)，命令:  export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890  参考：终端代理访问设置 ｜ 知乎  注意事项 2:  关闭IPV6，否则出现报错：  fatal: unable to access &#39;https://github.com/Homebrew/brew/&#39;: LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 Failed during: git fetch origin --tags --force  解决： 命令行设置关闭IPV6，命令：  networksetup -setv6off Wi-Fi </description>
+    </item>
+    
+  </channel>
+</rss>

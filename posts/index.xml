@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 苦楝</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on 苦楝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Nov 2020 16:14:45 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac 终端安装 Homebrew 报错备忘</title>
+      <link>/posts/homebrew%E5%AE%89%E8%A3%85%E5%A4%87%E5%BF%98/</link>
+      <pubDate>Wed, 04 Nov 2020 16:14:45 +0800</pubDate>
+      
+      <guid>/posts/homebrew%E5%AE%89%E8%A3%85%E5%A4%87%E5%BF%98/</guid>
+      <description>通过mac自带的ruby安装brew, 命令：
+ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 注意事项 1：  需通过代理访问，否则出现报错：  curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused  解决： 通过设置终端代理，端口根据设置自定义修改(clashx用户可以在功能菜单中直接复制)，命令:  export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890  参考：终端代理访问设置 ｜ 知乎  注意事项 2:  关闭IPV6，否则出现报错：  fatal: unable to access &#39;https://github.com/Homebrew/brew/&#39;: LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 Failed during: git fetch origin --tags --force  解决： 命令行设置关闭IPV6，命令：  networksetup -setv6off Wi-Fi </description>
+    </item>
+    
+    <item>
+      <title>十一月的萧邦</title>
+      <link>/posts/%E5%8D%81%E4%B8%80%E6%9C%88%E7%9A%84%E8%90%A7%E9%82%A6/</link>
+      <pubDate>Wed, 04 Nov 2020 16:14:45 +0800</pubDate>
+      
+      <guid>/posts/%E5%8D%81%E4%B8%80%E6%9C%88%E7%9A%84%E8%90%A7%E9%82%A6/</guid>
+      <description>十一月了，计划中很多本该尘埃落定的事情，都还没有落定。工作上、生活上，都是。但最近心态好了很多，对待自己不喜欢的人、事，也比较有耐心。
+这几天犯了支气管炎，医生开了些止咳平喘的药，攒劲得很，不管是疗效，还是不良反应。脑子整天都是浑浑噩噩的状态，四肢也很疲乏，口腔里总是有一股干、腥的苦味。很奇怪我居然能够清楚的分辨这些都是生理性的，而不是心累使然。我一向以为，没有小恙或有大灾，所以我每次刀子划伤指头、爬山腿上割些伤口，都还挺高兴的，心想，天呐，又躲过一劫。所谓得点感冒，有助防癌。
+车子也帮我分摊了些坏运气，它静静旳停在地库里，无端端地被旁边车磕坏了大灯和左前侧叶子板、和一个雷达探测器。等配件的日子里，风平浪静。然后车子送修，得病开药，医生说，服药期间不能开车。简直环环相扣。我也一向以为，身边的物什，都是自己的命运共同体，他们出点事儿，都是帮助消化了噩运。
+《十一月的萧邦》是我最喜欢的流行专辑。那年周董的大作刚出来，我在市里的中学复读，那里的秋冬，比广州更像秋冬。当时也处于消沉和心态重建的阶段，每天循环播放，觉得冷峻与温暖交织。那时侯既觉得自己一无是处，又觉得自己将无所不能。如今看来，一无是处是受挫后的过度应激反应。无所不能则是青春期的认知缺陷。一个合格的打工人，在不大好的年景，大概就像花样挨锤的牛一样，叫是没什么好叫唤的，也不奢望能喝上奶，地还是得接着犁。这才哪到哪儿呢。</description>
+    </item>
+    
+  </channel>
+</rss>
